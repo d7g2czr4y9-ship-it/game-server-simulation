@@ -1,5 +1,6 @@
 import random
-
+# Peak hours simulation - models real game server behaviour
+# Similar to bank queue taught in Simulation & Modelling class
 # ── Settings ──────────────────────────────
 SERVER_CAPACITY = 8      # max players in a match
 TOTAL_PLAYERS   = 50      # players we will simulate
