@@ -29,6 +29,7 @@ for player_id in range(1, TOTAL_PLAYERS + 1):
         print(f"Player {player_id} | Status: WAITING | Wait Time: {wait}s")
     else:
         in_match.append(player_id)
+        joined_count += 1
         print(f"Player {player_id} | Status: JOINED  | Wait Time: 0s")
 
     wait_times.append(wait)
