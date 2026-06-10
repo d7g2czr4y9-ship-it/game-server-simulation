@@ -17,6 +17,7 @@ print("=" * 40)
 queue        = []
 in_match     = []
 wait_times   = []
+joined_count = 0
 
 for player_id in range(1, TOTAL_PLAYERS + 1):
     wait = 0
