@@ -1,7 +1,7 @@
 import random
 
 # ── Settings ──────────────────────────────
-SERVER_CAPACITY = 5       # max players in a match
+SERVER_CAPACITY = 8      # max players in a match
 TOTAL_PLAYERS   = 50      # players we will simulate
 MIN_WAIT        = 1       # min seconds to wait
 MAX_WAIT        = 10      # max seconds to wait
