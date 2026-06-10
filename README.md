@@ -18,3 +18,9 @@ Online Gaming Behaviour Dataset from Kaggle
 
 ## Course
 Simulation and Modelling — UMT Lahore 2026
+## Sample Output
+- 50 players simulated
+- Server capacity: 8 players
+- Players who waited: varies each run
+- Average wait time: 3-5 seconds
+- Simulation models peak hour gaming behaviour
