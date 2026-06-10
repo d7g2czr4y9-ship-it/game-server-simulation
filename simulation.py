@@ -11,6 +11,7 @@ SCENARIO = "peak hours"
 # ── Simulation ────────────────────────────
 print("=" * 40)
 print("  GAME SERVER QUEUE SIMULATION")
+print(f"scenario : {SCENARIO}")
 print("=" * 40)
 
 queue        = []
