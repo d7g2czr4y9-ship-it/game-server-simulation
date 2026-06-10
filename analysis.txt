@@ -1,0 +1,18 @@
+DATASET ANALYSIS NOTES
+======================
+Dataset: Online Gaming Behaviour Dataset
+Source: Kaggle
+Total Records: 9000+
+Total Columns: 13
+
+Key Observations:
+- 60% of players are Male, 40% Female
+- Most players are aged 15-49
+- Top game genres: Sports, Action, RPG, Strategy, Simulation
+- Play time ranges from 0 to 24 hours
+- Locations: USA (40%), Europe (30%), Asia and Others (30%)
+
+Simulation Assumptions Based on Dataset:
+- Server capacity set to 8 (based on average session data)
+- Player arrival rate modeled on sessions per week data
+- Wait times reflect real engagement patterns
