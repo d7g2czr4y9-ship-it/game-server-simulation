@@ -6,7 +6,8 @@ SERVER_CAPACITY = 8      # max players in a match
 TOTAL_PLAYERS   = 50      # players we will simulate
 MIN_WAIT        = 1       # min seconds to wait
 MAX_WAIT        = 10      # max seconds to wait
-
+#scenario label
+SCENARIO = "peak hours"
 # ── Simulation ────────────────────────────
 print("=" * 40)
 print("  GAME SERVER QUEUE SIMULATION")
