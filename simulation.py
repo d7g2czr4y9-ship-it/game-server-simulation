@@ -7,7 +7,7 @@ TOTAL_PLAYERS   = 50      # players we will simulate
 MIN_WAIT        = 1       # min seconds to wait
 MAX_WAIT        = 10      # max seconds to wait
 #scenario label
-SCENARIO = "peak hours"
+SCENARIO = "peak hours - high player load"
 # ── Simulation ────────────────────────────
 print("=" * 40)
 print("  GAME SERVER QUEUE SIMULATION")
