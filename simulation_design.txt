@@ -1,0 +1,33 @@
+SIMULATION DESIGN DOCUMENT
+===========================
+
+Project: Game Server Queue Simulation
+Course: Simulation and Modelling
+Student: Khadija Ghaffar
+University: UMT Lahore
+
+DISCRETE EVENT SIMULATION MODEL
+--------------------------------
+Entity:          Player
+Resource:        Game Server
+Queue:           Matchmaking Queue
+
+EVENTS
+------
+1. Player Arrival   - A new player tries to join
+2. Queue Join       - Player waits if server is full
+3. Match Start      - Player enters server
+4. Match End        - Player leaves, next in queue enters
+
+STATE VARIABLES
+---------------
+- Queue Length      : Number of players waiting
+- Server Status     : Busy or Free
+- Wait Time         : Time each player waited
+
+REAL WORLD CONNECTION
+---------------------
+This models exactly how games like PUBG, 
+Valorant and Free Fire handle matchmaking.
+When too many players join at once, a queue 
+forms and players must wait their turn.
