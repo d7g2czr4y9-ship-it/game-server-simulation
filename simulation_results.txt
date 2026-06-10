@@ -1,0 +1,34 @@
+SIMULATION RUN RESULTS
+======================
+Date: June 2026
+Student: Khadija Ghaffar
+Course: Simulation and Modelling - UMT Lahore
+
+RUN 1 - Normal Load
+-------------------
+Total Players: 50
+Server Capacity: 10
+Players Joined: 30
+Players Waited: 20
+Average Wait: 3-5 minutes
+
+RUN 2 - Peak Hours
+------------------
+Total Players: 50
+Server Capacity: 5
+Players Joined: 15
+Players Waited: 35
+Average Wait: 8-12 minutes
+
+OBSERVATION:
+When server capacity drops from 10 to 5,
+the number of waiting players jumps from 20 to 35.
+This matches real world game server behaviour
+during peak gaming hours.
+
+DATASET CONNECTION:
+These values are based on real data:
+- 40,034 real players analyzed
+- Average session: 12 hours
+- Average sessions per week: 9.5
+- Peak genre: Sports
